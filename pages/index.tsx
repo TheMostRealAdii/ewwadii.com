@@ -20,6 +20,11 @@ const Home: NextPage = () => {
           <span className="hi">Thoughtful</span>,{" "}
           <span className="hi">Intuitive</span> Designs.
         </div>
+        <div>
+          This App Is Under Development And For Now Only Available For Desktop
+          User Only Mobile, Tab And Other Devices Other Than Desktop Experience
+          Is Not Optimized{" "}
+        </div>
       </div>
     </div>
   );
