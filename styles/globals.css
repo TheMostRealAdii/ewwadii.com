@@ -82,15 +82,50 @@ a {
   /* width: 100%;
   height: 100%; */
   background-size: contain;
-  background-position: 90% 100%;
+  background-position: 100% 150%;
   /* background-size: 70% 100%; */
 }
+.des {
+  width: 50vw;
+}
+@media (max-width: 1750px) {
+  .svgs1 {
+    background-image: url();
+    background-repeat: no-repeat;
+    /* width: 100%;
+    height: 100%; */
+    /* background-size: contain; */
+    background-size: 100% 100%;
+    background-position: 150% 200%;
+  }
+  .des {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .svgs1 {
+    background-image: url();
+    background-repeat: no-repeat;
+    /* width: 100%;
+    height: 100%; */
+    background-size: contain;
+    background-position: 90% 100%;
+    /* background-size: 70% 100%; */
+  }
+  .des {
+    width: 80vw;
+  }
+}
+
 @media (max-width: 768px) {
   body {
     margin-left: 0;
     margin-right: 0;
   }
-
+  .des {
+    width: 100%;
+  }
   .heading {
     font-size: 2rem;
   }
