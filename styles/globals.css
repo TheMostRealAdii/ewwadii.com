@@ -47,15 +47,17 @@ div {
   /* margin-top: -100px; */
 }
 
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
+  /* Code for Firefox */
   color: #ffffff;
-  background: yellow;
+  background: #000000;
 }
 
 ::selection {
-  color: red;
-  background: yellow;
+  color: #ffffff;
+  background: #000000;
 }
+
 
 @media screen and (max-width: 1630px) {
   .heading {
