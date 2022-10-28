@@ -97,6 +97,7 @@ div {
 
 @media screen and (max-width: 560px) {
   .subheading {
+    font-size: 5.866666666666667vw;
     margin-left: 0.3vw;
     margin-right: 0.3vw;
   }
