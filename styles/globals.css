@@ -58,7 +58,6 @@ div {
   background: #000000;
 }
 
-
 @media screen and (max-width: 1630px) {
   .heading {
     font-size: 15vw;
@@ -82,12 +81,12 @@ div {
   }
   .subheading {
     font-size: 5.666666666666667vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (min-width: 560px) {
   .heading {
     font-size: 18vw;
   }
@@ -96,8 +95,7 @@ div {
   }
   .subheading {
     font-size: 6.666666666666667vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
   }
 }
-
