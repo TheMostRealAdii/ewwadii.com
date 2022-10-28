@@ -86,16 +86,18 @@ div {
   }
 }
 
-@media screen and (min-width: 560px) {
+@media screen and (max-width: 560px) {
   .heading {
-    font-size: 18vw;
+    font-size: 20vw;
   }
   .otheading {
-    font-size: 18vw;
+    font-size: 20vw;
   }
+}
+
+@media screen and (max-width: 560px) {
   .subheading {
-    font-size: 6.666666666666667vw;
-    margin-left: 0.5vw;
-    margin-right: 0.5vw;
+    margin-left: 0.3vw;
+    margin-right: 0.3vw;
   }
 }
