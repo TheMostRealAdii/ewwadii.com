@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <>
       {/* <div className={style.heading}>Selected</div>
-      <div className={style.otheading}>Works</div> */}
+      <div className={style.otheading}>Works*</div> */}
     </>
   );
 };

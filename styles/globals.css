@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Syne&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 
 html,
 body {
@@ -53,9 +54,22 @@ div {
   /* margin-top: -100px; */
 }
 
+.skilled {
+  font-family: "Great Vibes", cursive;
+  text-align: center;
+  font-size: 4.5333333333333335vw;
+  margin-top: 3vw;
+}
+
+.skills {
+  text-align: center;
+  font-family: "Syne", sans-serif;
+  font-size: 1.8vw;
+  margin-top: 0vw;
+}
+
 ::-moz-selection {
   /* Code for Firefox */
-
   color: #d4d0c9;
   background: #2d2d2d;
 }
@@ -63,14 +77,6 @@ div {
 ::selection {
   color: #d4d0c9;
   background: #2d2d2d;
-
-  color: #ffffff;
-  background: #000000;
-}
-
-::selection {
-  color: #ffffff;
-  background: #000000;
 }
 
 /*
@@ -219,6 +225,21 @@ Header Css End
     margin-left: 10vw;
     margin-right: 10vw;
   }
+
+  .skilled {
+    font-family: "Great Vibes", cursive;
+    text-align: center;
+    font-size: 5.3vw;
+    margin-top: 3vw;
+  }
+
+  .skills {
+    text-align: center;
+    font-family: "Syne", sans-serif;
+    font-size: 2vw;
+    margin-top: 0vw;
+    margin-bottom: 2vw;
+  }
 }
 
 .projectsheading {
@@ -237,6 +258,19 @@ Header Css End
     margin-left: 1vw;
     margin-right: 1vw;
   }
+  .skilled {
+    font-family: "Great Vibes", cursive;
+    text-align: center;
+    font-size: 9.5vw;
+    margin-top: 3vw;
+  }
+  
+  .skills {
+    text-align: center;
+    font-family: "Syne", sans-serif;
+    font-size: 3vw;
+    margin-top: 0vw;
+  }
 }
 
 @media screen and (max-width: 560px) {
@@ -245,6 +279,19 @@ Header Css End
   }
   .otheading {
     font-size: 20vw;
+  }
+  .skilled {
+    font-family: "Great Vibes", cursive;
+    text-align: center;
+    font-size: 11vw;
+    margin-top: 3vw;
+  }
+  
+  .skills {
+    text-align: center;
+    font-family: "Syne", sans-serif;
+    font-size: 4vw;
+    margin-top: 0vw;
   }
 }
 
