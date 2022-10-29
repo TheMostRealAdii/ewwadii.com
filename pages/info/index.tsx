@@ -1,20 +1,18 @@
 import Head from "next/head";
 import Link from "next/link";
-import React from "react";
 import Header from "../components/Header";
+import Heading from "../components/Heading";
 
-const Blog = () => {
+const About = () => {
   return (
     <>
       <Head>
-        <title>Blog</title>
+        <title>Info About Me</title>
       </Head>
       <Header />
-      <div></div>
+      <Heading />
     </>
   );
 };
 
-
-
-export default Blog;
+export default About;

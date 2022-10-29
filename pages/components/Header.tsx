@@ -1,39 +1,22 @@
 import React from "react";
-import Head from "next/head";
 import Link from "next/link";
 
 const Header = () => {
   return (
     <>
-      <Head>
-        <title>Header</title>
-      </Head>
-      <header>
-        <nav>
-          <ul>
-            <li>
-              <Link href="/" legacyBehavior>
-                <a>Home</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/about" legacyBehavior>
-                <a>About</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/blog" legacyBehavior>
-                <a>Blog</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/contact" legacyBehavior>
-                <a>Contact</a>
-              </Link>
-            </li>
-          </ul>
-        </nav>
-      </header>
+      <div className="header">
+        <Link href="/" legacyBehavior>
+          <a className="logo">ewwadii.com</a>
+        </Link>
+        <div className="header-right">
+          <Link href="info" legacyBehavior>
+            <a href="#home">INFO</a>
+          </Link>
+          <Link href="blog" legacyBehavior>
+            <a href="#contact">BLOGS</a>
+          </Link>
+        </div>
+      </div>
     </>
   );
 };

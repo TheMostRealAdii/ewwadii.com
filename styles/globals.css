@@ -3,7 +3,9 @@
 
 html,
 body {
-  background-color: #ffffff;
+  background-color: #d4d0c9;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 a {
@@ -26,13 +28,16 @@ a {
 div {
   padding: 0px;
 }
+
 .heading {
+  color: #2d2d2d;
   font-size: 11vw;
   text-align: center;
   font-weight: 700;
 }
 
 .otheading {
+  color: #2d2d2d;
   font-size: 11vw;
   text-align: center;
   font-weight: 700;
@@ -40,6 +45,7 @@ div {
 }
 
 .subheading {
+  color: #2d2d2d;
   font-size: 3.3333333333333335vw;
   text-align: center;
   margin-left: 10vw;
@@ -47,16 +53,151 @@ div {
   /* margin-top: -100px; */
 }
 
-::-moz-selection { /* Code for Firefox */
-  color: #ffffff;
-  background: yellow;
+::-moz-selection {
+  /* Code for Firefox */
+  color: #d4d0c9;
+  background: #2d2d2d;
 }
 
 ::selection {
-  color: red;
-  background: yellow;
+  color: #d4d0c9;
+  background: #2d2d2d;
 }
 
+/*
+Header Css
+*/
+
+.header {
+  font-family: "Syne", sans-serif;
+  overflow: hidden;
+  padding: 20px 10px;
+  margin-bottom: 2vw;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 1.5vw;
+  line-height: 25px;
+  animation: colorchange 10s infinite;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.header a:hover {
+  text-decoration: underline;
+  font-weight: 500;
+  color: white;
+}
+
+.header a.active {
+  text-decoration: underline;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    /* float: none; */
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: right;
+  }
+}
+
+@media screen and (max-width: 1630px) {
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 2vw;
+    line-height: 25px;
+    animation: colorchange 10s infinite;
+    border-radius: 4px;
+  }
+
+  .header a.logo {
+    font-size: 2.5vw;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 1216px) {
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 2.5vw;
+    line-height: 25px;
+    animation: colorchange 10s infinite;
+    border-radius: 4px;
+  }
+
+  .header a.logo {
+    font-size: 3vw;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 858px) {
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 3.5vw;
+    line-height: 25px;
+    animation: colorchange 10s infinite;
+    border-radius: 4px;
+  }
+
+  .header a.logo {
+    font-size: 4vw;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 558px) {
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 5vw;
+    line-height: 25px;
+    animation: colorchange 10s infinite;
+    border-radius: 4px;
+  }
+
+  .header a.logo {
+    font-size: 5.5vw;
+    font-weight: bold;
+  }
+}
+
+/*
+Header Css End
+*/
 @media screen and (max-width: 1630px) {
   .heading {
     font-size: 15vw;
@@ -71,6 +212,10 @@ div {
   }
 }
 
+.projectsheading {
+  margin-top: 5vw;
+}
+
 @media screen and (max-width: 860px) {
   .heading {
     font-size: 18vw;
@@ -80,22 +225,24 @@ div {
   }
   .subheading {
     font-size: 5.666666666666667vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
   }
 }
 
 @media screen and (max-width: 560px) {
   .heading {
-    font-size: 18vw;
+    font-size: 20vw;
   }
   .otheading {
-    font-size: 18vw;
-  }
-  .subheading {
-    font-size: 6.666666666666667vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    font-size: 20vw;
   }
 }
 
+@media screen and (max-width: 560px) {
+  .subheading {
+    font-size: 5.866666666666667vw;
+    margin-left: 0.3vw;
+    margin-right: 0.3vw;
+  }
+}

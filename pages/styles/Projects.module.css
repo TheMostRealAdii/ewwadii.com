@@ -1,0 +1,19 @@
+.heading {
+  color: #2d2d2d;
+  font-size: 10vw;
+  text-align: center;
+  font-weight: 0;
+  font-family: "Lora", serif;
+  margin-top: 3vw;
+}
+
+.otheading {
+  color: #2d2d2d;
+  font-size: 11vw;
+  text-align: center;
+  font-weight: 0;
+  margin-top: -5.3vw;
+  font-family: "Lora", serif;
+
+  margin-bottom: 2vw;
+}
