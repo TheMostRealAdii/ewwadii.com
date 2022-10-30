@@ -283,14 +283,14 @@ Header Css End
   .skilled {
     font-family: "Great Vibes", cursive;
     text-align: center;
-    font-size: 11vw;
-    margin-top: 3vw;
+    font-size: 14vw;
+    margin-top: 5vw;
   }
   
   .skills {
     text-align: center;
     font-family: "Syne", sans-serif;
-    font-size: 4vw;
+    font-size: 5vw;
     margin-top: 0vw;
   }
 }
