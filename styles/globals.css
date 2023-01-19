@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Syne&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 html,
 body {
@@ -18,12 +20,20 @@ a {
   box-sizing: border-box;
 }
 
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
 .syne {
   font-family: "Syne", sans-serif;
 }
 
 .lora {
   font-family: "Lora", serif;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
 }
 
 div {
@@ -264,7 +274,7 @@ Header Css End
     font-size: 9.5vw;
     margin-top: 3vw;
   }
-  
+
   .skills {
     text-align: center;
     font-family: "Syne", sans-serif;
@@ -286,7 +296,7 @@ Header Css End
     font-size: 14vw;
     margin-top: 5vw;
   }
-  
+
   .skills {
     text-align: center;
     font-family: "Syne", sans-serif;

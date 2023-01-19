@@ -2,9 +2,10 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import "../styles/Home.module.css";
-import Header from "./components/Header";
+import Header from "./components/Head";
 import Heading from "./components/Heading";
 import Subhead from "./components/Subhead";
+import Socials from "./components/Socials";
 import Projects from "./components/Projects";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Header />
       <Heading />
       <Subhead />
+      <Socials />
       <Projects />
     </>
   );
