@@ -8,7 +8,7 @@ const Blog = () => {
   return (
     <>
       <Head>
-        <title>ewwadii - Blog</title>
+        <title>ewwadii - Projects</title>
       </Head>
       <Header />
       <Projects />
