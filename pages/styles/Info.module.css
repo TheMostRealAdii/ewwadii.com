@@ -22,6 +22,12 @@
 }
 
 .txtdec {
+  transition: 0.2s;
+  text-decoration: underline;
+}
+.txtdec:hover {
+  color: white;
+  transition: 0.2s;
   text-decoration: underline;
 }
 
@@ -52,6 +58,12 @@
   }
 
   .txtdec {
+    transition: 0.2s;
+    text-decoration: underline;
+  }
+  .txtdec:hover {
+    color: white;
+    transition: 0.2s;
     text-decoration: underline;
   }
 }
@@ -83,6 +95,12 @@
   }
 
   .txtdec {
+    transition: 0.2s;
+    text-decoration: underline;
+  }
+  .txtdec:hover {
+    color: white;
+    transition: 0.2s;
     text-decoration: underline;
   }
 }
@@ -114,6 +132,12 @@
   }
 
   .txtdec {
+    transition: 0.2s;
+    text-decoration: underline;
+  }
+  .txtdec:hover {
+    color: white;
+    transition: 0.2s;
     text-decoration: underline;
   }
 }
@@ -145,6 +169,12 @@
   }
 
   .txtdec {
+    transition: 0.2s;
+    text-decoration: underline;
+  }
+  .txtdec:hover {
+    color: white;
+    transition: 0.2s;
     text-decoration: underline;
   }
 }

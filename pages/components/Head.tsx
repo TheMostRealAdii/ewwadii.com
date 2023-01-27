@@ -5,19 +5,19 @@ import Script from "next/script";
 export default function Header() {
   return (
     <>
-      <div className="header">
+      <header className="header">
         <Link href="/" legacyBehavior>
           <a className="logo">ewwadii.com</a>
         </Link>
         <div className="header-right">
           <Link href="info" legacyBehavior>
-            <a href="#home">INFO</a>
+            <a href="#info">INFO</a>
           </Link>
-          <Link href="blog" legacyBehavior>
-            <a href="#contact">BLOGS</a>
+          <Link href="projects" legacyBehavior>
+            <a href="#projects">PROJECTS</a>
           </Link>
         </div>
-      </div>
+      </header>
     </>
   );
 }

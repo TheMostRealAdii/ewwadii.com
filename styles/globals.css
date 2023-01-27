@@ -52,7 +52,7 @@ div {
   font-size: 11vw;
   text-align: center;
   font-weight: 700;
-  margin-top: -5.3vw;
+  margin-top: -5.3vw; /* -5.3vw */
 }
 
 .subheading {
@@ -61,7 +61,7 @@ div {
   text-align: center;
   margin-left: 10vw;
   margin-right: 10vw;
-  /* margin-top: -100px; */
+  /* margin-top: -5vw; */
 }
 
 .skilled {
@@ -208,7 +208,7 @@ Header Css
     text-align: center;
     padding: 12px;
     text-decoration: none;
-    font-size: 5vw;
+    font-size: 5.5vw;
     line-height: 25px;
     animation: colorchange 10s infinite;
     border-radius: 4px;
@@ -217,6 +217,7 @@ Header Css
   .header a.logo {
     font-size: 5.5vw;
     font-weight: bold;
+    margin-top: -0.1em;
   }
 }
 
@@ -229,6 +230,7 @@ Header Css End
   }
   .otheading {
     font-size: 15vw;
+    /* margin-top: -17vw; */
   }
   .subheading {
     font-size: 4.666666666666667vw;
@@ -262,6 +264,7 @@ Header Css End
   }
   .otheading {
     font-size: 18vw;
+    /* margin-top: -20vw; */
   }
   .subheading {
     font-size: 5.666666666666667vw;
@@ -288,6 +291,7 @@ Header Css End
     font-size: 20vw;
   }
   .otheading {
+    /* margin-top: -22vw; */
     font-size: 20vw;
   }
   .skilled {

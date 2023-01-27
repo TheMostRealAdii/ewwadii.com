@@ -8,7 +8,7 @@ export default function Info() {
     <>
       <div className={s.infotxt}>
         <span className={s.infoone}>
-          I’m Aditya a IN based front-emd web developer with 2 years of
+          I’m Aditya an IN based front-end web developer with 2 years of
           experience. I specialise in UX/UI design for web-based applications
           with a focus on simplicity & usability. I’m passionate about design
           and technology and how the two can converge to create experiences for

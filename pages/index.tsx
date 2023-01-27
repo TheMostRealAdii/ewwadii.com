@@ -7,10 +7,12 @@ import Heading from "./components/Heading";
 import Subhead from "./components/Subhead";
 import Socials from "./components/Socials";
 import Projects from "./components/Projects";
+import HeadSEO from "./Head";
 
 export default function Home() {
   return (
     <>
+      <HeadSEO />
       <Head>
         <title>Aditya Shah</title>
       </Head>
@@ -18,7 +20,6 @@ export default function Home() {
       <Heading />
       <Subhead />
       <Socials />
-      <Projects />
     </>
   );
 }
