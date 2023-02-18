@@ -21,7 +21,7 @@ const Socials = () => {
           </span>
         </a>
         <a
-          href="https://github.com/ewwadii"
+          href="https://github.com/ewww_adi"
           target="_blank"
           rel="noreferrer"
         >
