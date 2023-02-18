@@ -15,13 +15,13 @@ const Socials = () => {
             <i className="bi bi-instagram"></i>
           </span>
         </a>
-        <a href="https://twitter.com/ewwadii" target="_blank" rel="noreferrer">
+        <a href="https://twitter.com/ewww_adi" target="_blank" rel="noreferrer">
           <span className={s.socialset}>
             <i className="bi bi-twitter"></i>
           </span>
         </a>
         <a
-          href="https://github.com/ewww_adi"
+          href="https://github.com/ewwadii"
           target="_blank"
           rel="noreferrer"
         >
