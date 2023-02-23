@@ -3,6 +3,7 @@ import Link from "next/link";
 import Header from "../components/Head";
 import Heading from "../components/Heading";
 import InfoBased from "../components/InfoBased";
+import Pronounce from "../components/Pronounce";
 
 const About = () => {
   return (
@@ -12,6 +13,7 @@ const About = () => {
       </Head>
       <Header />
       <Heading />
+      <Pronounce />
       <InfoBased />
     </>
   );

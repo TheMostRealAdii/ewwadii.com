@@ -8,6 +8,7 @@ import Subhead from "./components/Subhead";
 import Socials from "./components/Socials";
 import Projects from "./components/Projects";
 import HeadSEO from "./Head";
+import Pronounce from "./components/Pronounce";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       </Head>
       <Header />
       <Heading />
+      <Pronounce />
       <Subhead />
       <Socials />
     </>
