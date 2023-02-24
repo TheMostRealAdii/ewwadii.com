@@ -13,7 +13,7 @@ const About = () => {
       </Head>
       <Header />
       <Heading />
-<!--       <Pronounce /> -->
+{/* <Pronounce /> */}
       <InfoBased />
     </>
   );
